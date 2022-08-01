@@ -14,8 +14,9 @@
   <link rel="stylesheet" href="src/css/style.css">
   <!-- Icon -->
   <link rel="shortcut icon" href="src/images/pokebola.png" type="image/x-icon">
-
+  <!-- Responsive -->
   <link rel="stylesheet" href="src/css/responsive.css">
+
 
   <title>Projeto Pokémon Slider - MapaDev Week</title>
 </head>
@@ -26,7 +27,7 @@
     <h1 class="titulo">MapaDev Week</h1>
   </header>
   <main class="pokemon-slider">
-    <button class="btn-seta btn-voltar">
+    <button class="btn-seta btn-voltar" id="btn-voltar">
       <img src="src/images/seta.png" alt="Seta voltar" />
     </button>
 
@@ -80,10 +81,13 @@
       </li>
     </ul>
 
-    <button class="btn-seta">
+    <button class="btn-seta" id="btn-avancar">
       <img src="src/images/seta.png" alt="Seta avançar" />
     </button>
   </main>
+
+  <!-- JS -->
+  <script defer src="src/js/script.js"></script>
 </body>
 
 </html>
